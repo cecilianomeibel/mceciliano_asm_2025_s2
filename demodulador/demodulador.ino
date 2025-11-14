@@ -10,9 +10,8 @@ const int CLOCK_PIN = 16;        // Pin de clock del modulador
 // Configuración de la modulación FSK
 const double freq0 = 100.0;
 const double freq1 = 1000.0;
-const double T_bit = 0.05; //1.0 / freq0;
 const double Fs = 2560.0;
-const uint16_t N = 128; //(uint16_t)(Fs * T_bit); // muestras por bit
+const uint16_t N = 128; // muestras por bit
 
 // Configuración de los Buffers de muestreos y el circular
 const int BUFFER_SIZE = 1024;
